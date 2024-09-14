@@ -1,0 +1,26 @@
+{
+    "name": "SharpKatz",
+    "version": "v0.0.1",
+    "command_name": "SharpKatz",
+    "original_author": "fullst",
+    "repo_url": "https://github.com/fullstcat/SharpKatz",
+    "help": "Porting of mimikatz sekurlsa::logonpasswords, sekurlsa::ekeys and lsadump::dcsync commands",
+    "entrypoint": "Main",
+    "allow_args": true,
+    "default_args": "-h",
+    "is_reflective": false,
+    "is_assembly": true,
+    "files": [
+      {
+        "os": "windows",
+        "arch": "amd64",
+        "path": "SharpKatz.exe"
+      },
+      {
+        "os": "windows",
+        "arch": "386",
+        "path": "SharpKatz.exe"
+      }
+    ]
+  }
+  
